@@ -44,7 +44,6 @@ h4 {
 /*** Nav ***/
 
 nav {
-    background: var(--white);
     height: 3rem;
     display: grid;
     align-items: center;
@@ -93,14 +92,13 @@ main {
 }
 
 .container h2 {
-    background: var(--light-grey);
     padding: 1rem;
     border-radius: 10px;
     margin-bottom: 2.5rem;
 }
 
 .colour {
-    color: var(--orange);
+    color: var(--black);
 }
 
 .btn-hero {
