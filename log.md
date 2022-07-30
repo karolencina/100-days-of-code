@@ -8,3 +8,4 @@ the ```mv``` command and found out what the .idea directory is
 all about.
 
 ### Day 2
+
