@@ -21,5 +21,14 @@ BTNS.forEach(function (btn) {
             count++;
             document.querySelector('#value').innerHTML = count;
         }
+        if (count > 0) {
+            VALUE.style.color = 'var(--c-dark-pink)';
+        }
+        else if (count < 0) {
+            VALUE.style.color = 'var(--c-dark-blue)';
+        }
+        else {
+            VALUE.style.color = 'var(--c-black)';
+        }
     })
 })
