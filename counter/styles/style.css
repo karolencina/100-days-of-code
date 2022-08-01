@@ -168,13 +168,13 @@ main {
 .btn {
     text-transform: uppercase;
     background: transparent;
-    color: var(--c-dark-blue);
+    color: var(--c-black);
     padding: 0.5rem 0.75rem;
     letter-spacing: var(--spacing);
     display: inline-block;
     transition: var(--transition);
     font-size: 0.875rem;
-    border: 2px solid var(--c-dark-blue);
+    border: 2px solid var(--c-black);
     cursor: pointer;
     border-radius: var(--radius);
     margin: 0.5rem;
@@ -182,5 +182,5 @@ main {
 
 .btn:hover {
     color: var(--c-white);
-    background: var(--c-dark-blue);
+    background: var(--c-black);
 }
