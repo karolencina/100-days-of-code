@@ -8,4 +8,9 @@ the ```mv``` command and found out what the .idea directory is
 all about.
 
 ### Day 2
+Problem solving: GitHub was not showing up on my contributions graph.
+I found out that it was because my Git email address was different.
 
+### Day 3
+Added a new functionality to the Counter project that differentiates
+between positive and negative numbers.
