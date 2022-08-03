@@ -8,9 +8,15 @@ the ```mv``` command and found out what the .idea directory is
 all about.
 
 ### Day 2
-Problem solving: GitHub was not showing up on my contributions graph.
-I found out that it was because my Git email address was different.
+Problem solving: GitHub was not showing up on my contributions graph. I found out that it was because my Git email address was different.
 
 ### Day 3
-Added a new functionality to the Counter project that differentiates
+Added a new functionality to Counter that differentiates
 between positive and negative numbers.
+
+### Day 4
+Started exploring Bootstrap. Found out what the shortcut for comments
+is in WebStorm (finally!).
+
+### Day 5
+Decided to not use Bootstrap at the moment (I'm trying to get better at HTML, CSS and JS - that's my priority). I styled the reviews card and created a random data array to use in the script of Reviews.
