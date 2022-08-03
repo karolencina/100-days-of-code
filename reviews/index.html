@@ -2,8 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1"
+    >
     <title>Reviews</title>
-    <link rel="stylesheet" href="styles/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link
+            rel="stylesheet"
+            href="styles/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
 </head>
 <body>
 <main>
@@ -13,7 +20,29 @@
             <h2>Our reviews</h2>
             <div class="underline"></div>
         </div>
+        <!-- Review card -->
+        <article class="review">
+            <div class="img-container">
+                <img src="person-1.PNG" id="person-img">
+            </div>
+            <h4 id="author">Sara Jones</h4>
+            <p id="job">UX designer</p>
+            <p id="info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores corporis harum magnam nobis perspiciatis, recusandae. Ab asperiores eius nostrum quaerat! Fugiat ipsam, mollitia nulla quae quasi quo rerum velit!
+            </p>
+            <!-- Arrow buttons -->
+            <div class="btn-container">
+                <button class="prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <!-- Random review button -->
+            <button class="random-btn">Surprise me</button>
+        </article>
     </section>
 </main>
-ss/all/min.css</body>
+</body>
 </html>
