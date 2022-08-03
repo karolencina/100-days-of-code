@@ -31,7 +31,7 @@ Variables
     --ff-secondary: "Space Mono", mono;
     --transition: all 0.05s linear;
     --spacing: 0.1rem;
-    --radius: 0.25rem;
+    --radius-small: 0.25rem;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     --max-width: 1170px;
@@ -176,7 +176,7 @@ main {
     font-size: 0.875rem;
     border: 2px solid var(--c-black);
     cursor: pointer;
-    border-radius: var(--radius);
+    border-radius: var(--radius-small);
     margin: 0.5rem;
 }
 
