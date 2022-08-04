@@ -19,4 +19,6 @@ Started exploring Bootstrap. Found out what the shortcut for comments
 is in WebStorm (finally!).
 
 ### Day 5
-Decided to not use Bootstrap at the moment (I'm trying to get better at HTML, CSS and JS - that's my priority). I styled the reviews card and created a random data array to use in the script of Reviews.
+Decided to not use Bootstrap at the moment (I'm trying to get better at HTML, CSS and JS - that's my priority). I styled the reviews card and created a random data array to use in the script of Reviews. 
+
+I decided to try and write the logic of the code on my own (without looking at the solution) and ended up breaking my browser... still not sure why.
