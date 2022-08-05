@@ -60,12 +60,12 @@ function showPerson(num) {
 
 // Show next person
 NEXT_BTN.addEventListener('click', function () {
-        currentReview++;
-        console.log(currentReview);
-        if (currentReview > reviews.length -1) {
-            currentReview = 0;
-        }
-        showPerson(currentReview);
+    currentReview++;
+    console.log(currentReview);
+    if (currentReview > reviews.length -1) {
+        currentReview = 0;
+    }
+    showPerson(currentReview);
 });
 
 // Show previous person
@@ -77,3 +77,9 @@ PREV_BTN.addEventListener('click', function () {
     }
     showPerson(currentReview);
 });
+
+RANDOM_BTN.addEventListener('click', function () {
+    currentReview = Math.floor(Math.random() * (reviews.length - 1));
+    if ()
+    showPerson(currentReview);
+})
