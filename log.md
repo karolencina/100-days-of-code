@@ -28,3 +28,6 @@ I did not manage to write any code, was really busy! :(
 
 ### Day 7
 Learned more about `git rebase`. I wrote an incorrect commit message but only realised two commits later, so I could not amend the commit in the usual way (`git commit --amend`). I looked it the issue up on Stack Overflow and the solution I found worked for me. I added a random review functionality to my script almost on my own. I still don't clearly understand the logic behind generating random numbers between two specific values, so I'm currently looking into it.
+
+### Day 8
+Looked for an alternative way to add icons to my projects (I don't want to have to download a large set of icons only to use 2 of them). I looked into Material Design icons on Google Fonts which are meant to replace icon glyphs but it didn't work as expected.
