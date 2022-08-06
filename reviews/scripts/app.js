@@ -80,6 +80,5 @@ PREV_BTN.addEventListener('click', function () {
 
 RANDOM_BTN.addEventListener('click', function () {
     currentReview = Math.floor(Math.random() * (reviews.length - 1));
-    if ()
     showPerson(currentReview);
 })
