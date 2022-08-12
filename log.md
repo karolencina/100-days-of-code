@@ -31,3 +31,14 @@ Learned more about `git rebase`. I wrote an incorrect commit message but only re
 
 ### Day 8
 Looked for an alternative way to add icons to my projects (I don't want to have to download a large set of icons only to use 2 of them). I looked into Material Design icons on Google Fonts which are meant to replace icon glyphs but it didn't work as expected.
+
+### Day 9
+I did not manage to get anything done.
+
+### Day 10
+I created an HTML + CSS setup for the Navbar project. This was quite simple and I learned how the logic will work (it is yet to be implemented).
+
+### Day 11
+I did not get anything done as I arrived home late.
+
+### Day 12
