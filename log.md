@@ -42,3 +42,4 @@ I created an HTML + CSS setup for the Navbar project. This was quite simple and 
 I did not get anything done as I arrived home late.
 
 ### Day 12
+The individual project files' CSS was partly duplicated for each project (especially the global variables), so I created a global.css file and linked it to each project as an additional stylesheet. I created a links toggle functionality when user clicks on the hamburger menu - I paused my YT tutorial and did this almost completely on my own.
