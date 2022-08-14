@@ -21,7 +21,7 @@ nav {
     cursor: pointer;
 }
 .nav-toggle:hover {
-    color: var(--c-dark-blue);
+    color: var(--c-black);
     transform: rotate(90deg);
 }
 .logo {
@@ -35,11 +35,13 @@ nav {
     display: block;
     padding: 0.5rem 1rem;
     transition: var(--transition);
+    border-bottom: solid var(--c-dark-grey) 1px;
 }
 .links a:hover {
-    background: var(--clr-primary-8);
-    color: var(--clr-primary-5);
+    background: var(--c-light-pink);
+    color: var(--c-black);
     padding-left: 1.5rem;
+    border-bottom: solid var(--c-black) 1px;
 }
 .social-icons {
     display: none;
@@ -78,16 +80,5 @@ nav {
     .links a:hover {
         padding: 0;
         background: transparent;
-    }
-    .social-icons {
-        display: flex;
-    }
-    .social-icons a {
-        margin: 0 0.5rem;
-        color: var(--clr-primary-5);
-        transition: var(--transition);
-    }
-    .social-icons a:hover {
-        color: var(--clr-primary-7);
     }
 }
