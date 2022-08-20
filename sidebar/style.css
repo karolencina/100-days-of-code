@@ -1,8 +1,3 @@
-/*
-===============
-Sidebar
-===============
-*/
 .sidebar-toggle {
     position: fixed;
     top: 2rem;
@@ -10,24 +5,18 @@ Sidebar
     font-size: 2rem;
     background: transparent;
     border-color: transparent;
-    color: var(--clr-primary-5);
-    transition: var(--transition);
+    color: var(--c-black);
+    transition: var(--transition-slow);
     cursor: pointer;
-    animation: bounce 2s ease-in-out infinite;
+    transform-origin: center;
 }
+
 .sidebar-toggle:hover {
-    color: var(--clr-primary-7);
+    color: var(--c-dark-blue);
 }
-@keyframes bounce {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.5);
-    }
-    100% {
-        transform: scale(1);
-    }
+
+.btn-toggled {
+    transform: rotate(90deg);
 }
 
 .sidebar-header {
@@ -36,19 +25,22 @@ Sidebar
     align-items: center;
     padding: 1rem 1.5rem;
 }
-.close-btn {
+
+.btn-close {
     font-size: 1.75rem;
     background: transparent;
     border-color: transparent;
-    color: var(--clr-primary-5);
-    transition: var(--transition);
+    color: var(--c-black);
+    transition: var(--transition-slow);
     cursor: pointer;
-    color: var(--clr-red-dark);
+    transform-origin: 51% 51%;
 }
-.close-btn:hover {
-    color: var(--clr-red-light);
-    transform: rotate(360deg);
+
+.btn-close:hover {
+    color: var(--c-dark-pink);
+    transform: rotate(90deg);
 }
+
 .logo {
     justify-self: center;
     height: 40px;
@@ -59,27 +51,20 @@ Sidebar
     font-size: 1.5rem;
     text-transform: capitalize;
     padding: 1rem 1.5rem;
-    color: var(--clr-grey-5);
-    transition: var(--transition);
+    color: var(--c-dark-grey);
+    transition: var(--transition-fast);
 }
+
 .links a:hover {
-    background: var(--clr-primary-8);
-    color: var(--clr-primary-5);
+    background: var(--c-light-pink);
+    color: var(--c-black);
     padding-left: 1.75rem;
 }
+
 .social-icons {
     justify-self: center;
     display: flex;
     padding-bottom: 2rem;
-}
-.social-icons a {
-    font-size: 1.5rem;
-    margin: 0 0.5rem;
-    color: var(--clr-primary-5);
-    transition: var(--transition);
-}
-.social-icons a:hover {
-    color: var(--clr-primary-1);
 }
 
 .sidebar {
@@ -88,17 +73,19 @@ Sidebar
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--clr-white);
+    background: var(--c-white);
     display: grid;
     grid-template-rows: auto 1fr auto;
     row-gap: 1rem;
-    box-shadow: var(--clr-red-dark);
-    transition: var(--transition);
-    /* transform: translate(-100%); */
+    box-shadow: var(--c-light-grey);
+    transition: var(--transition-slow);
+    transform: translate(-100%);
 }
+
 .show-sidebar {
     transform: translate(0);
 }
+
 @media screen and (min-width: 676px) {
     .sidebar {
         width: 400px;
