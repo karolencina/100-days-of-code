@@ -29,7 +29,8 @@ Variables
 
     --ff-primary: "Space Grotesk", sans-serif;
     --ff-secondary: "Space Mono", mono;
-    --transition: all 0.05s linear;
+    --transition-fast: all 0.05s linear;
+    --transition-slow: all 0.5s ease;
     --spacing: 0.1rem;
     --radius-small: 0.25rem;
     --radius-big: 0.80rem;

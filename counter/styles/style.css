@@ -27,7 +27,7 @@ main {
     padding: 0.5rem 0.75rem;
     letter-spacing: var(--spacing);
     display: inline-block;
-    transition: var(--transition);
+    transition: var(--transition-fast);
     font-size: 0.875rem;
     border: 2px solid var(--c-black);
     cursor: pointer;
