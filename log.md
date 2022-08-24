@@ -46,3 +46,5 @@ The individual project files' CSS was partly duplicated for each project (especi
 
 ### Day 13
 
+### \<to be changed> | 24/08/22
+Perhaps the main event today was not writing code. By no means am I trying to discount the importance of finally having a better understanding of practical use cases of the ``forEach`` method, but I started updating my daily log!(!!). After re-reading it and comparing it with my Git commits and browser history, I realised that neglecting my log not only makes me look lazier than I really have been, but it also makes it painfully easy to forget the process of learning and the effort I have been putting into this journey. (*Karo, this is a message for your future self - if you're reading this - please,*  please *- do find the time to record your progress*) 
