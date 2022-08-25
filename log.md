@@ -44,7 +44,20 @@ I did not get anything done as I arrived home late.
 ### Day 12 | 13/08/22
 The individual project files' CSS was partly duplicated for each project (especially the global variables), so I created a global.css file and linked it to each project as an additional stylesheet. I created a links toggle functionality when user clicks on the hamburger menu - I paused my YT tutorial and did this almost completely on my own.
 
-### Day 13
+### \<to be changed> | 20/08/22
+I started and completed the *Sidebar* project today and setup *Modal*. I learned how to stage everything except specific files in Git, ``invert()`` in CSS and struggled with ``transform-origin`` and rotating svg elements around their centre. And here I thought that it would be possible to focus only on Vanilla JS.
+
+### \<to be changed> | 21/08/22
+I wrote a script for modal. I did it on my own, no Stack Overflow, no Google, no YT. I'm happy.
+
+### \<to be changed> | 22/08/22
+I started the questions project. I did barely anything today -  I just created a basic setup (HTML + CSS) for my next project *Questions*.
+
+### \<to be changed> | 23/08/22
+I continued with *Questions* project. I added text to questions and adjusted the CSS (to focus on JavaScript, I've been using John Smilga's CSS and changing it to fit my code). I'm getting used to the WebStorm shortcuts and noticing that my coding got much faster because of that. It's also easier for me to quickly navigate in code (e.g. see the opening and closing tags)
 
 ### \<to be changed> | 24/08/22
 Perhaps the main event today was not writing code. By no means am I trying to discount the importance of finally having a better understanding of practical use cases of the ``forEach`` method, but I started updating my daily log!(!!). After re-reading it and comparing it with my Git commits and browser history, I realised that neglecting my log not only makes me look lazier than I really have been, but it also makes it painfully easy to forget the process of learning and the effort I have been putting into this journey. (*Karo, this is a message for your future self - if you're reading this - please,*  please *- do find the time to record your progress*) 
+
+### \<to be changed> | 24/08/22
+I finished the alternative script for *Questions* and continued with completing my log. It will probably take a while...
