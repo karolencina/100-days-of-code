@@ -61,3 +61,6 @@ Perhaps the main event today was not writing code. By no means am I trying to di
 
 ### \<to be changed> | 24/08/22
 I finished the alternative script for *Questions* and continued with completing my log. It will probably take a while...
+
+### \<to be changed> | 24/08/22
+I created an additional functionality to hide all open answers apart from the one that the user clicked on. I wouldn't have guessed that I needed to use a nested ``forEach`` loop but when I found out about it from the tutorial which I'm following, I was able to complete the rest of the code on my own which made me feel more confident.
