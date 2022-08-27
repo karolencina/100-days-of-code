@@ -59,8 +59,11 @@ I continued with *Questions* project. I added text to questions and adjusted the
 ### \<to be changed> | 24/08/22
 Perhaps the main event today was not writing code. By no means am I trying to discount the importance of finally having a better understanding of practical use cases of the ``forEach`` method, but I started updating my daily log!(!!). After re-reading it and comparing it with my Git commits and browser history, I realised that neglecting my log not only makes me look lazier than I really have been, but it also makes it painfully easy to forget the process of learning and the effort I have been putting into this journey. (*Karo, this is a message for your future self - if you're reading this - please,*  please *- do find the time to record your progress*) 
 
-### \<to be changed> | 24/08/22
+### \<to be changed> | 25/08/22
 I finished the alternative script for *Questions* and continued with completing my log. It will probably take a while...
 
-### \<to be changed> | 24/08/22
+### \<to be changed> | 26/08/22
 I created an additional functionality to hide all open answers apart from the one that the user clicked on. I wouldn't have guessed that I needed to use a nested ``forEach`` loop but when I found out about it from the tutorial which I'm following, I was able to complete the rest of the code on my own which made me feel more confident.
+
+### \<to be changed> | 27/08/22
+Commit-wise, I only created a new project setup (*Menu*). I focused on learning theory today (I read a few pages of my JavaScript book).
