@@ -67,3 +67,9 @@ I created an additional functionality to hide all open answers apart from the on
 
 ### \<to be changed> | 27/08/22
 Commit-wise, I only created a new project setup (*Menu*). I focused on learning theory today (I read a few pages of my JavaScript book).
+
+### \<to be changed> | 28/08/22
+I sat in front of my laptop for 5 minutes contemplating life and decided to go to sleep.
+
+### \<to be changed> | 29/08/22
+I setup the content and styles for the Menu project and added an array of menu item objects. This is basically a fake database. I also learned about ``http.postBuffer`` while trying to push my commits. The push got stuck at the last line but I managed to fix it by [*increasing the Git buffer size to the largest individual size of my repo*](https://stackoverflow.com/questions/15843937/git-push-hangs-after-total-line) (Faiz Ahmad Dae).
