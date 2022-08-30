@@ -4,7 +4,7 @@ The log of my #100DaysOfCode challenge. Started on 29 July 2022.
 ### Day 1 | 29/07/22
 Created a simple counter. I'm shocked to see how much JavaScript
 I forgot while working in back-end. Reminded myself how to use 
-the ```mv``` command and found out what the .idea directory is
+the `mv` command and found out what the .idea directory is
 all about.
 
 ### Day 2 | 30/07/22
@@ -45,7 +45,7 @@ I did not get anything done as I arrived home late.
 The individual project files' CSS was partly duplicated for each project (especially the global variables), so I created a global.css file and linked it to each project as an additional stylesheet. I created a links toggle functionality when user clicks on the hamburger menu - I paused my YT tutorial and did this almost completely on my own.
 
 ### \<to be changed> | 20/08/22
-I started and completed the *Sidebar* project today and setup *Modal*. I learned how to stage everything except specific files in Git, ``invert()`` in CSS and struggled with ``transform-origin`` and rotating svg elements around their centre. And here I thought that it would be possible to focus only on Vanilla JS.
+I started and completed the *Sidebar* project today and setup *Modal*. I learned how to stage everything except specific files in Git, `invert()` in CSS and struggled with `transform-origin` and rotating svg elements around their centre. And here I thought that it would be possible to focus only on Vanilla JS.
 
 ### \<to be changed> | 21/08/22
 I wrote a script for modal. I did it on my own, no Stack Overflow, no Google, no YT. I'm happy.
@@ -57,13 +57,13 @@ I started the questions project. I did barely anything today -  I just created a
 I continued with *Questions* project. I added text to questions and adjusted the CSS (to focus on JavaScript, I've been using John Smilga's CSS and changing it to fit my code). I'm getting used to the WebStorm shortcuts and noticing that my coding got much faster because of that. It's also easier for me to quickly navigate in code (e.g. see the opening and closing tags)
 
 ### \<to be changed> | 24/08/22
-Perhaps the main event today was not writing code. By no means am I trying to discount the importance of finally having a better understanding of practical use cases of the ``forEach`` method, but I started updating my daily log!(!!). After re-reading it and comparing it with my Git commits and browser history, I realised that neglecting my log not only makes me look lazier than I really have been, but it also makes it painfully easy to forget the process of learning and the effort I have been putting into this journey. (*Karo, this is a message for your future self - if you're reading this - please,*  please *- do find the time to record your progress*) 
+Perhaps the main event today was not writing code. By no means am I trying to discount the importance of finally having a better understanding of practical use cases of the `forEach` method, but I started updating my daily log!(!!). After re-reading it and comparing it with my Git commits and browser history, I realised that neglecting my log not only makes me look lazier than I really have been, but it also makes it painfully easy to forget the process of learning and the effort I have been putting into this journey. (*Karo, this is a message for your future self - if you're reading this - please,*  please *- do find the time to record your progress*) 
 
 ### \<to be changed> | 25/08/22
 I finished the alternative script for *Questions* and continued with completing my log. It will probably take a while...
 
 ### \<to be changed> | 26/08/22
-I created an additional functionality to hide all open answers apart from the one that the user clicked on. I wouldn't have guessed that I needed to use a nested ``forEach`` loop but when I found out about it from the tutorial which I'm following, I was able to complete the rest of the code on my own which made me feel more confident.
+I created an additional functionality to hide all open answers apart from the one that the user clicked on. I wouldn't have guessed that I needed to use a nested `forEach` loop but when I found out about it from the tutorial which I'm following, I was able to complete the rest of the code on my own which made me feel more confident.
 
 ### \<to be changed> | 27/08/22
 Commit-wise, I only created a new project setup (*Menu*). I focused on learning theory today (I read a few pages of my JavaScript book).
@@ -72,4 +72,7 @@ Commit-wise, I only created a new project setup (*Menu*). I focused on learning 
 I sat in front of my laptop for 5 minutes contemplating life and decided to go to sleep.
 
 ### \<to be changed> | 29/08/22
-I setup the content and styles for the Menu project and added an array of menu item objects. This is basically a fake database. I also learned about ``http.postBuffer`` while trying to push my commits. The push got stuck at the last line but I managed to fix it by [*increasing the Git buffer size to the largest individual size of my repo*](https://stackoverflow.com/questions/15843937/git-push-hangs-after-total-line) (Faiz Ahmad Dae).
+I setup the content and styles for the Menu project and added an array of menu item objects. This is basically a fake database. I also learned about `http.postBuffer` while trying to push my commits. The push got stuck at the last line but I managed to fix it by [*increasing the Git buffer size to the largest individual size of my repo*](https://stackoverflow.com/questions/15843937/git-push-hangs-after-total-line) (Faiz Ahmad Dae).
+
+### \<to be changed> | 29/08/22
+Today I really didn't feel like coding, but I still did it and I don't regret it. I learned how to use the `map()` method to loop through array while modifying the content of each object (super useful!). I also realised how simple it is to display items dynamically. There are still some parts of the function that I do not understand though, so I'll have to have a look at it later.
