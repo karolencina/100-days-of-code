@@ -83,7 +83,9 @@ const menu = [
 ];
 
 const sectionCenter = document.querySelector('.section-center');
+const filterBtns = document.querySelectorAll('.filter-btn');
 
+//Load items
 function displayMenuItems(menuItems) {
     let displayMenu = menuItems.map(function(item) {
         return `<article class="menu-item">
@@ -105,3 +107,24 @@ window.addEventListener('DOMContentLoaded', function () {
     displayMenuItems(menu)
 });
 
+//Filter items
+//Check if each button of .filte-btn' class
+filterBtns.forEach(function (btn) {
+    // was clicked
+    btn.addEventListener('click', function (e) {
+        // and if it was, do the following:
+        // define the value of <button>'s data-id
+        const category = e.currentTarget.dataset.id;
+        // define the value
+        const menuCategory = menu.filter(function(menuItem) {
+            if (menuItem.category === category) {
+                return menuItem;
+            }
+        });
+        if (category === "all") {
+            displayMenuItems(menu);
+        } else {
+            displayMenuItems(menuCategory);
+        }
+    });
+});
