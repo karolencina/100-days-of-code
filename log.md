@@ -74,5 +74,8 @@ I sat in front of my laptop for 5 minutes contemplating life and decided to go t
 ### \<to be changed> | 29/08/22
 I setup the content and styles for the Menu project and added an array of menu item objects. This is basically a fake database. I also learned about `http.postBuffer` while trying to push my commits. The push got stuck at the last line but I managed to fix it by [*increasing the Git buffer size to the largest individual size of my repo*](https://stackoverflow.com/questions/15843937/git-push-hangs-after-total-line) (Faiz Ahmad Dae).
 
-### \<to be changed> | 29/08/22
+### \<to be changed> | 30/08/22
 Today I really didn't feel like coding, but I still did it and I don't regret it. I learned how to use the `map()` method to loop through array while modifying the content of each object (super useful!). I also realised how simple it is to display items dynamically. There are still some parts of the function that I do not understand though, so I'll have to have a look at it later.
+
+### \<to be changed> | 31/08/22
+All I did today was encapsulate the functionality that displays menu items from an array into a function to make the code reusable.
