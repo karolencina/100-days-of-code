@@ -83,7 +83,7 @@ const menu = [
 ];
 
 const sectionCenter = document.querySelector('.section-center');
-const filterBtns = document.querySelectorAll('.filter-btn');
+const container = document.querySelector('.btn-container');
 
 //Load items
 function displayMenuItems(menuItems) {
@@ -103,28 +103,50 @@ function displayMenuItems(menuItems) {
     sectionCenter.innerHTML = displayMenu;
 }
 
-window.addEventListener('DOMContentLoaded', function () {
-    displayMenuItems(menu)
-});
+function displayMenuButtons() {
+    const categories = menu.reduce(
+        function(values, item) {
+            // If the array doesn't include the item category property
+            if (!values.includes(item.category)) {
+                // add that category
+                values.push(item.category)
+            }
+            // and if the category already exists, just return the values as they currently are
+            return values;
+        },
+        ['all']
+    );
+    const categoryBtns = categories.map(function(category) {
+        return `<button class="filter-btn" type="button" data-id="${category}">${category}</button>`
+    })
+        .join("");
+    container.innerHTML = categoryBtns;
+    const filterBtns = document.querySelectorAll('.filter-btn');
 
-//Filter items
-//Check if each button of .filte-btn' class
-filterBtns.forEach(function (btn) {
-    // was clicked
-    btn.addEventListener('click', function (e) {
-        // and if it was, do the following:
-        // define the value of <button>'s data-id
-        const category = e.currentTarget.dataset.id;
-        // define the value
-        const menuCategory = menu.filter(function(menuItem) {
-            if (menuItem.category === category) {
-                return menuItem;
+    //Filter items
+    //Check if each button of .filter-btn' class
+    filterBtns.forEach(function (btn) {
+        // was clicked
+        btn.addEventListener('click', function (e) {
+            // and if it was, do the following:
+            // define the value of <button>'s data-id
+            const category = e.currentTarget.dataset.id;
+            // define the value
+            const menuCategory = menu.filter(function(menuItem) {
+                if (menuItem.category === category) {
+                    return menuItem;
+                }
+            });
+            if (category === "all") {
+                displayMenuItems(menu);
+            } else {
+                displayMenuItems(menuCategory);
             }
         });
-        if (category === "all") {
-            displayMenuItems(menu);
-        } else {
-            displayMenuItems(menuCategory);
-        }
     });
+}
+
+window.addEventListener('DOMContentLoaded', function () {
+    displayMenuItems(menu);
+    displayMenuButtons();
 });
