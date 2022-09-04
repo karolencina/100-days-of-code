@@ -82,3 +82,6 @@ All I did today was encapsulate the functionality that displays menu items from 
 
 ### \<to be changed> | 01/09/22
 Today I created a functionality to filter menu items. While doing this, I learned about `HTMLElement.dataset` (access to custom data attributes defined as `data-<custom value>="<custom value>"` in HTML tags) and `filter` function. I was following a tutorial and didn't manage to understand the complete logic of the code behind this functionality at first, but I did understand all individual lines, so I wrote a comment above each of them to help me understand the whole block of code.
+
+### \<to be changed> | 02/09/22
+Today I
