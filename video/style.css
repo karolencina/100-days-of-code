@@ -48,7 +48,7 @@ h1 {
   width: 7rem;
   height: 2rem;
   display: flex;
-  border-radius: var(--radius-small);
+  border-radius: var(--radius-big);
   align-items: center;
   justify-content: space-around;
   border: none;
@@ -60,7 +60,7 @@ h1 {
   font-size: 0.85rem;
   cursor: pointer;
   text-transform: capitalize;
-  color: var(--c-dark-blue);
+  color: var(--c-black);
 }
 
 .switch {
@@ -70,7 +70,7 @@ h1 {
   top: 0;
   left: 0;
   background: var(--c-dark-pink);
-  border-radius: var(--radius-small);
+  border-radius: var(--radius-big);
   margin: 0;
   display: block;
   transition: var(--transition-fast);
