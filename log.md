@@ -107,3 +107,9 @@ Today I started the _Video_ project. It was my first time including a video in H
 
 ### \<to be changed> | 04/09/22
 It's been a great day today! I learned so much. I started doing exercises from Marijn Haverbeke's Eloquent JavaScript and managed to write everything completely on my own without any Google search at all (super unusual). The first two projects were very simple and the last one was slightly more challenging but only because of 1 thing - instead of declaring a let inside a function, I declared it in the beginning of JS file and since the function was called multiple times, it kept updating the global variable instead of resetting the local one on each call.
+
+### \<to be changed> | 05/09/22
+I spent a really long time updating a few old logs that I neglected. I didn't check what branch I was on as and accidentally committed and pushed the updates to a different branch. I didn't want to merge it as the branch name was completely unrelated to the commit so to keep it clean, I copied the changes, checked out my main branch and applied them there.
+
+### \<to be changed> | 06/09/22
+I added a script to the _Video_ project. It's starting to get much easier for me which I'm very happy about. It gives me a lot of motivation.
