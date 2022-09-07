@@ -113,3 +113,6 @@ I spent a really long time updating a few old logs that I neglected. I didn't ch
 
 ### \<to be changed> | 06/09/22
 I added a script to the _Video_ project. It's starting to get much easier for me which I'm very happy about. It gives me a lot of motivation.
+
+### \<to be changed> | 07/09/22
+Today I added a preloader to the _Video_ project using `classList.add` to add a class to the preloader to the z-index of the preloader and set its `visibility: hidden`. I never throught preloaders were coded this way!
