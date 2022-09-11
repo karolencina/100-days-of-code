@@ -124,3 +124,7 @@ I didn't do much, I was travelling back home to visit my family for a couple of 
 I spent the day with my family, no updates.
 
 ### \<to be changed> | 10/09/22
+I updated logs for previous days and set up a few basic files for a new project - _Scroll_.
+
+### \<to be changed> | 11/09/22
+I started writing HTML and created a CSS for the _Scroll_ project.
