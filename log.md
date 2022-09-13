@@ -128,3 +128,6 @@ I updated logs for previous days and set up a few basic files for a new project 
 
 ### \<to be changed> | 11/09/22
 I started writing HTML and created a CSS for the _Scroll_ project.
+
+### \<to be changed> | 12/09/22
+I finished creating structure for _Scroll_ and learned a few shortcuts and HTML symbols.
