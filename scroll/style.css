@@ -16,11 +16,11 @@ nav {
 }
 
 .fixed-nav .links a {
-  color: var(--c-dark-grey);
+  color: var(--c-black);
 }
 
 .fixed-nav .links a:hover {
-  color: var(--c-dark-blue);
+  color: var(--c-light-pink);
 }
 
 /*.fixed-nav .links-container {
@@ -128,7 +128,7 @@ nav {
 
 header {
   min-height: 100vh;
-  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7));
+  background: url(./hero-img.jpg) center/cover no-repeat;
 }
 
 .banner {
@@ -156,14 +156,21 @@ header {
   }
 }
 
-/* sections and title */
+/* Sections and title */
+
 .title h2 {
   text-align: center;
   text-transform: uppercase;
 }
 
-.title span {
-  color: var(--c-dark-pink);
+.btn {
+  color: var(--c-light-pink);
+  border: 2px solid var(--c-light-pink);
+}
+
+.btn:hover {
+  color: var(--c-black);
+  background: var(--c-light-pink);
 }
 
 #about,
@@ -199,9 +206,8 @@ footer p {
   height: 2rem;
   display: grid;
   place-items: center;
-  border-radius: var(--radius-big);
-  color: var(--c-white);
-  animation: bounce 2s ease-in-out infinite;
+  border-radius: var(--radius-small);
+  color: var(--c-black);
 
   visibility: hidden;
   z-index: -100;
@@ -212,16 +218,7 @@ footer p {
   z-index: 100;
 }
 
-@keyframes bounce {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.5);
-  }
-
-  100% {
-    transform: scale(1);
-  }
+.show-link:hover {
+  transform: scale(1.2);
+  transition: var(--transition-fast);
 }
