@@ -60,74 +60,95 @@ The individual project files' CSS was partly duplicated for each project (especi
 This day was mostly just optimisation. I shortened what was too long, deleted what
 was unnecessary and slightly changed the styles for _Navbar_.
 
-### \<to be changed> | 20/08/22
+### Day 18 | 15/08/22
+I didn't do any JavaScript today, but I had a portfolio idea which I started to explore: I would like my development portfolio to look like System 1 (old Mac GUI) with most of the functionality. Today I looked for the fonts, colours, demo videos, etc. to get a better idea of how to implement it later on.
+
+### Day 19 | 16/08/22
+I created a basic setup for my portfolio (custom fonts, navbar, logo) and created a few designs in Figma.
+
+### Day 20 | 17/08/22
+I didn't do anything. 
+
+### Day 21 | 18/08/22
+It was my first day of work after vacation, I didn't manage to do much.
+
+### Day 22 | 19/08/22
+BBQ at work - came home late and didn't get anything done.
+
+### Day 23 | 20/08/22
 I started and completed the *Sidebar* project today and setup *Modal*. I learned how to stage everything except specific files in Git, `invert()` in CSS and struggled with `transform-origin` and rotating svg elements around their centre. And here I thought that it would be possible to focus only on Vanilla JS.
 
-### \<to be changed> | 21/08/22
+### Day 24 | 21/08/22
 I wrote a script for modal. I did it on my own, no Stack Overflow, no Google, no YT. I'm happy.
 
-### \<to be changed> | 22/08/22
+### Day 25 | 22/08/22
 I started the questions project. I did barely anything today -  I just created a basic setup (HTML + CSS) for my next project *Questions*.
 
-### \<to be changed> | 23/08/22
+### Day 26 | 23/08/22
 I continued with *Questions* project. I added text to questions and adjusted the CSS (to focus on JavaScript, I've been using John Smilga's CSS and changing it to fit my code). I'm getting used to the WebStorm shortcuts and noticing that my coding got much faster because of that. It's also easier for me to quickly navigate in code (e.g. see the opening and closing tags)
 
-### \<to be changed> | 24/08/22
+### Day 27 | 24/08/22
 Perhaps the main event today was not writing code. By no means am I trying to discount the importance of finally having a better understanding of practical use cases of the `forEach` method, but I started updating my daily log!(!!). After re-reading it and comparing it with my Git commits and browser history, I realised that neglecting my log not only makes me look lazier than I really have been, but it also makes it painfully easy to forget the process of learning and the effort I have been putting into this journey. (*Karo, this is a message for your future self - if you're reading this - please,*  please *- do find the time to record your progress*)
 
-### \<to be changed> | 25/08/22
+### Day 28 | 25/08/22
 I finished the alternative script for *Questions* and continued with completing my log. It will probably take a while...
 
-### \<to be changed> | 26/08/22
+### Day 29 | 26/08/22
 I created an additional functionality to hide all open answers apart from the one that the user clicked on. I wouldn't have guessed that I needed to use a nested `forEach` loop but when I found out about it from the tutorial which I'm following, I was able to complete the rest of the code on my own which made me feel more confident.
 
-### \<to be changed> | 27/08/22
+### Day 30 | 27/08/22
 Commit-wise, I only created a new project setup (*Menu*). I focused on learning theory today (I read a few pages of my JavaScript book).
 
-### \<to be changed> | 28/08/22
+### Day 31 | 28/08/22
 I sat in front of my laptop for 5 minutes contemplating life and decided to go to sleep.
 
-### \<to be changed> | 29/08/22
+### Day 32 | 29/08/22
 I setup the content and styles for the Menu project and added an array of menu item objects. This is basically a fake database. I also learned about `http.postBuffer` while trying to push my commits. The push got stuck at the last line but I managed to fix it by [*increasing the Git buffer size to the largest individual size of my repo*](https://stackoverflow.com/questions/15843937/git-push-hangs-after-total-line) (Faiz Ahmad Dae).
 
-### \<to be changed> | 30/08/22
+### Day 33 | 30/08/22
 Today I really didn't feel like coding, but I still did it and I don't regret it. I learned how to use the `map()` method to loop through array while modifying the content of each object (super useful!). I also realised how simple it is to display items dynamically. There are still some parts of the function that I do not understand though, so I'll have to have a look at it later.
 
-### \<to be changed> | 31/08/22
+### Day 34 | 31/08/22
 All I did today was encapsulate the functionality that displays menu items from an array into a function to make the code reusable.
 
-### \<to be changed> | 01/09/22
+### Day 35 | 01/09/22
 Today I created a functionality to filter menu items. While doing this, I learned about `HTMLElement.dataset` (access to custom data attributes defined as `data-<custom value>="<custom value>"` in HTML tags) and `filter` function. I was following a tutorial and didn't manage to understand the complete logic of the code behind this functionality at first, but I did understand all individual lines, so I wrote a comment above each of them to help me understand the whole block of code.
 
-### \<to be changed> | 02/09/22
+### Day 36 | 02/09/22
 I recreated buttons to be displayed dynamically (I will need to go over the code again as I did a big part of this with help of the JS tutorial I'm following and I don't really understand some parts of the code).
 
-### \<to be changed> | 03/09/22
+### Day 37 | 03/09/22
 Today I started the _Video_ project. It was my first time including a video in HTML - I learned about the <video> and <source> tags and their attributes (controls, autoplay, etc.). I also set up Prettier for my WebStorm because as my codebase is growing, my code started to be messy and less uniform. I'd like to explore more way of keeping a codebase tidy when I get time.
 
-### \<to be changed> | 04/09/22
+### Day 38 | 04/09/22
 It's been a great day today! I learned so much. I started doing exercises from Marijn Haverbeke's Eloquent JavaScript and managed to write everything completely on my own without any Google search at all (super unusual). The first two projects were very simple and the last one was slightly more challenging but only because of 1 thing - instead of declaring a let inside a function, I declared it in the beginning of JS file and since the function was called multiple times, it kept updating the global variable instead of resetting the local one on each call.
 
-### \<to be changed> | 05/09/22
+### Day 39 | 05/09/22
 I spent a really long time updating a few old logs that I neglected. I didn't check what branch I was on as and accidentally committed and pushed the updates to a different branch. I didn't want to merge it as the branch name was completely unrelated to the commit so to keep it clean, I copied the changes, checked out my main branch and applied them there.
 
-### \<to be changed> | 06/09/22
+### Day 40 | 06/09/22
 I added a script to the _Video_ project. It's starting to get much easier for me which I'm very happy about. It gives me a lot of motivation.
 
-### \<to be changed> | 07/09/22
+### Day 41 | 07/09/22
 Today I added a preloader to the _Video_ project using `classList.add` to add a class to the preloader to the z-index of the preloader and set its `visibility: hidden`. I never thought preloaders were coded this way!
 
-### \<to be changed> | 08/09/22
+### Day 42 | 08/09/22
 I didn't do much, I was travelling back home to visit my family for a couple of days.
 
-### \<to be changed> | 09/09/22
+### Day 43 | 09/09/22
 I spent the day with my family, no updates.
 
-### \<to be changed> | 10/09/22
+### Day 44 | 10/09/22
 I updated logs for previous days and set up a few basic files for a new project - _Scroll_.
 
-### \<to be changed> | 11/09/22
+### Day 45 | 11/09/22
 I started writing HTML and created a CSS for the _Scroll_ project.
 
-### \<to be changed> | 12/09/22
+### Day 46 | 12/09/22
 I finished creating structure for _Scroll_ and learned a few shortcuts and HTML symbols.
+
+### Day 47 | 13/09/22
+I learned how to implement a dynamic copyright year in the footer. It was a very simple two-liner which had me wondering why so many pages I visit have their copyright still stuck in 2020.
+
+### Day 48 | 14/09/22
+I learned about the `pageYOffset`/`scrollY` method of the `window` object. I also managed to fix a CSS issue on my own (no Stack Overflow!).
