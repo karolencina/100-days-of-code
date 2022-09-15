@@ -152,3 +152,6 @@ I learned how to implement a dynamic copyright year in the footer. It was a very
 
 ### Day 48 | 14/09/22
 I learned about the `pageYOffset`/`scrollY` method of the `window` object. I also managed to fix a CSS issue on my own (no Stack Overflow!).
+
+### Day 50 | 15/09/22
+I changed a few _Scroll_ CSS bits because I can't stand ugly sites. While doing this, I learned that the order of stylesheets linked to HTML is important - a CSS file linked above another CSS file will be overwritten by the latter. I didn't do any JS today, neither am I planning to because I'd like to focus on learning Vim for Advanced Web Technologies module at uni (but most importantly for myself - the fact that I'll need it for AWT give me that nice little push that I need to actually dedicate my time to learning something that I've been planning to learn for a long time... I love my uni :heart:).
