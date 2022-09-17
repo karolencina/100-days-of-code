@@ -123,6 +123,8 @@ Today I started the _Video_ project. It was my first time including a video in H
 ### Day 38 | 04/09/22
 It's been a great day today! I learned so much. I started doing exercises from Marijn Haverbeke's Eloquent JavaScript and managed to write everything completely on my own without any Google search at all (super unusual). The first two projects were very simple and the last one was slightly more challenging but only because of 1 thing - instead of declaring a let inside a function, I declared it in the beginning of JS file and since the function was called multiple times, it kept updating the global variable instead of resetting the local one on each call.
 
+I also found out how to merge an older repository into a new one using `git subtree` and added _Color Generator_ into this repository.
+
 ### Day 39 | 05/09/22
 I spent a really long time updating a few old logs that I neglected. I didn't check what branch I was on as and accidentally committed and pushed the updates to a different branch. I didn't want to merge it as the branch name was completely unrelated to the commit so to keep it clean, I copied the changes, checked out my main branch and applied them there.
 
@@ -153,5 +155,11 @@ I learned how to implement a dynamic copyright year in the footer. It was a very
 ### Day 48 | 14/09/22
 I learned about the `pageYOffset`/`scrollY` method of the `window` object. I also managed to fix a CSS issue on my own (no Stack Overflow!).
 
-### Day 50 | 15/09/22
+### Day 49 | 15/09/22
 I changed a few _Scroll_ CSS bits because I can't stand ugly sites. While doing this, I learned that the order of stylesheets linked to HTML is important - a CSS file linked above another CSS file will be overwritten by the latter. I didn't do any JS today, neither am I planning to because I'd like to focus on learning Vim for Advanced Web Technologies module at uni (but most importantly for myself - the fact that I'll need it for AWT give me that nice little push that I need to actually dedicate my time to learning something that I've been planning to learn for a long time... I love my uni :heart:).
+
+### Day 50 | 16/09/22
+To make the scrolling more precise, I added 2 extra conditions to change the position of the scroll upon click on each of the menu links depending on which class the navbar currently has (whether it's fixed or not).
+
+### Day 51 | 17/09/22
+Every time I start to think that I might actually be good at coding, most of my confidence is shattered one way or another - today it was by GitHub (as much as I love GitHub, it does make me cry from time to time). I was checking this repository when I noticed that the project I added a couple of day ago as a subtree was gone! I still have no idea why and I haven't been able to figure it out so I managed to somehow find the old commit, download the files as a .zip file and added them into my project as a directory. Apart from that, I created a setup for a new project _Tabs_. Also, I fixed a bug in the _Scroll_ project (an incorrect classname).
