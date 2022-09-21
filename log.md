@@ -163,3 +163,15 @@ To make the scrolling more precise, I added 2 extra conditions to change the pos
 
 ### Day 51 | 17/09/22
 Every time I start to think that I might actually be good at coding, most of my confidence is shattered one way or another - today it was by GitHub (as much as I love GitHub, it does make me cry from time to time). I was checking this repository when I noticed that the project I added a couple of day ago as a subtree was gone! I still have no idea why and I haven't been able to figure it out so I managed to somehow find the old commit, download the files as a .zip file and added them into my project as a directory. Apart from that, I created a setup for a new project _Tabs_. Also, I fixed a bug in the _Scroll_ project (an incorrect classname).
+
+### Day 52 | 18/09/22
+I created and finished a script for the _Tabs_ project and changed some styles because although this is just a learning-purpose repo, ugly designs make me want to bleach my eyes. Just kidding, it's not that bad but still - nice things just make me happy.
+
+### Day 53 | 19/09/22
+Just uni stuff.
+
+### Day 54 | 20/09/22
+Didn't do anything JavaScript-related, but I created my first contribution through a fork and pull request.
+
+### Day 55 | 21/09/22
+Created a basic setup for _Countdown_... It is not finished yet though, as the CSS is faulty.
