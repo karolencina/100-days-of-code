@@ -3,13 +3,13 @@
 }
 .gift-info h3 {
   text-transform: uppercase;
-  color: var(--clr-primary-3);
+  color: var(--c-light-blue);
 }
 .gift-info p {
-  color: var(--clr-grey-6);
+  color: var(--c-dark-grey);
 }
 .date {
-  color: var(--clr-grey-5);
+  color: var(--c-dark-grey);
   font-size: 0.85rem;
 }
 @media screen and (min-width: 992px) {
@@ -31,13 +31,14 @@
   display: flex;
 }
 .deadline-format {
-  background: var(--clr-grey-1);
-  color: var(--clr-white);
-  margin-right: 1rem;
+  background: transparent;
+  color: var(--c-black);
   width: 5rem;
   height: 5rem;
   display: grid;
   place-items: center;
+  border: solid var(--c-black) 4px;
+  border-radius: var(--radius-big);
   text-align: center;
 }
 .deadline-format span {
@@ -50,4 +51,11 @@
   font-size: 2rem;
   margin-bottom: 0.25rem;
   letter-spacing: var(--spacing);
+}
+
+.date-separation {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  margin: 0 0.75rem 0 0.75rem;
 }
