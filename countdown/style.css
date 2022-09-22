@@ -1,17 +1,21 @@
 .gift-img {
   margin-bottom: 2rem;
 }
+
 .gift-info h3 {
   text-transform: uppercase;
   color: var(--c-light-blue);
 }
+
 .gift-info p {
   color: var(--c-dark-grey);
 }
+
 .date {
   color: var(--c-dark-grey);
   font-size: 0.85rem;
 }
+
 @media screen and (min-width: 992px) {
   .section-center {
     display: grid;
@@ -20,16 +24,20 @@
     gap: 3rem;
     width: 95vw;
   }
+
   .gift-img {
     margin-bottom: 0;
   }
 }
+
 .gift-info p {
   margin: 2rem 0;
 }
+
 .deadline {
   display: flex;
 }
+
 .deadline-format {
   background: transparent;
   color: var(--c-black);
@@ -41,12 +49,14 @@
   border-radius: var(--radius-big);
   text-align: center;
 }
+
 .deadline-format span {
   display: block;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.85rem;
 }
+
 .deadline h4:not(.expired) {
   font-size: 2rem;
   margin-bottom: 0.25rem;
