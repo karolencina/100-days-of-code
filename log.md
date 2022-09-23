@@ -177,4 +177,7 @@ Didn't do anything JavaScript-related, but I created my first contribution throu
 Created a basic setup for _Countdown_. It is not finished yet though, as the CSS is faulty.
 
 ### Day 56 | 22/09/22
-I fixed the styles of _Countdown_ and added a colon between the time units of the project.
+I fixed the styles of _Countdown_ and added a colon between the time units of the project. I also set up main bindings that will be used in the project.
+
+### Day 56 | 22/09/22
+The subtitle (h4) date is not set to be displayed dynamically using the Date() objects. This taught me a few useful built-in methods to save time.
