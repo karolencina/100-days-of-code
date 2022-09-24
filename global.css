@@ -175,7 +175,7 @@ main {
 
 .section-center {
   width: 90vw;
-  margin: 0 auto;
+  margin: 5rem auto;
   max-width: 1170px;
 }
 @media screen and (min-width: 992px) {
