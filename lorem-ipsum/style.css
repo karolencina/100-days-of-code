@@ -1,0 +1,37 @@
+h3 {
+  text-transform: uppercase;
+  color: var(--c-black);
+}
+
+.lorem-form {
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 1.25rem;
+  color: var(--c-black);
+}
+
+input {
+  padding: 0.25rem 0.5rem;
+
+  width: 4rem;
+  border-radius: var(--radius-small);
+  border: none;
+  margin: 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+button {
+  background: var(--c-dark-pink);
+}
+
+.result {
+  margin-bottom: 2rem;
+}
