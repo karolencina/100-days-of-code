@@ -179,5 +179,10 @@ Created a basic setup for _Countdown_. It is not finished yet though, as the CSS
 ### Day 56 | 22/09/22
 I fixed the styles of _Countdown_ and added a colon between the time units of the project. I also set up main bindings that will be used in the project.
 
-### Day 56 | 22/09/22
-The subtitle (h4) date is not set to be displayed dynamically using the Date() objects. This taught me a few useful built-in methods to save time.
+### Day 57 | 23/09/22
+I started writing the `getRemainingTime()` function, but as you might have seen, it is really long and interconnected, so I'll leave the rest of it for tomorrow.
+
+### Day 58 | 24/09/22
+I finished writing the `getRemainingTime` function. I realised that typing comments out helps me understand things better - sometimes I have to visit MDN web docs to be able to name stuff properly in my comments and doing only that makes a huuuge difference.
+
+I also started the _Lorem Ipsum_ project.
