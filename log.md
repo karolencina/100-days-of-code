@@ -186,3 +186,6 @@ I started writing the `getRemainingTime()` function, but as you might have seen,
 I finished writing the `getRemainingTime` function. I realised that typing comments out helps me understand things better - sometimes I have to visit MDN web docs to be able to name stuff properly in my comments and doing only that makes a huuuge difference.
 
 I also started the _Lorem Ipsum_ project.
+
+### Day 59 | 25/09/22
+Although I finished the script of Lorem Ipsum following John Smilga's tutorial, there are some parts that I didn't really understand (the purpose of mapping and slicing) and I'll have to have another look tomorrow. I learned about `parseInt()`, `preventDefault()` and `isNaN()`
