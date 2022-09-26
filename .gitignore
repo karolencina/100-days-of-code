@@ -3,3 +3,6 @@
 
 # Directory metadata
 .DS_Store
+
+# External dependencies cache
+node_modules/
