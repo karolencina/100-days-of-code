@@ -188,4 +188,7 @@ I finished writing the `getRemainingTime` function. I realised that typing comme
 I also started the _Lorem Ipsum_ project.
 
 ### Day 59 | 25/09/22
-Although I finished the script of Lorem Ipsum following John Smilga's tutorial, there are some parts that I didn't really understand (the purpose of mapping and slicing) and I'll have to have another look tomorrow. I learned about `parseInt()`, `preventDefault()` and `isNaN()`
+Although I finished the script of Lorem Ipsum following John Smilga's tutorial, there are some parts that I didn't really understand (the purpose of mapping and slicing) and I'll have to have another look tomorrow. I learned about `parseInt()`, `preventDefault()` and `isNaN()`.
+
+### Day 60 | 26/09/22
+The time to complete the most challenging project of the set has come! Today I started working on _Grocery Helper_ which is basically a shopping list. This is a great CRUD project which will probably take a while to complete. For now, I set up the content, style and declared constants and lets that I will be using at a later point.
