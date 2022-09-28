@@ -21,11 +21,9 @@
 }
 .alert-danger {
   color: var(--c-light-red);
-  background: #f8d7da;
 }
 .alert-success {
   color: var(--c-light-green);
-  background: #d4edda;
 }
 .grocery-form h3 {
   color: var(--c-dark-blue);
@@ -47,6 +45,13 @@
   flex: 1 0 auto;
   color: var(--c-dark-grey);
 }
+
+.empty-value {
+  border-style: solid;
+  border-color: var(--c-light-red) !important;
+  background: rgba(194, 147, 147, 30%) !important;
+}
+
 #grocery::placeholder {
   font-family: var(--ff-secondary);
   color: var(--c-dark-grey);
