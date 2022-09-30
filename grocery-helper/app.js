@@ -22,6 +22,9 @@ let editId = "";
 //Submit form
 form.addEventListener("submit", addItem);
 
+// Clear items
+clearBtn.addEventListener("click", clearItems);
+
 /* Functions */
 
 function addItem(e) {
@@ -77,6 +80,9 @@ function addItem(e) {
     list.appendChild(groceryItem);
     displayAlert("Item added to the list", "alert-success");
 
+    // Add to local storage
+    addToLocalStorage(id, value);
+
     // Set back to default
     setBackToDefault();
 
@@ -103,7 +109,22 @@ function displayAlert(text, cssClass) {
   }, 5000);
 }
 
+// Clear items
+function clearItems() {
+  const items = document.querySelectorAll(".grocery-item");
+  if (items.length > 0) {
+    items.forEach(function (item) {
+      list.removeChild(item);
+    });
+    container.classList.remove("show-container");
+    displayAlert("Items deleted", "alert-success");
+  }
+}
+
 /* Local storage */
+function addToLocalStorage(id, value) {
+  console.log("Added to local storage");
+}
 
 /* Set back to default */
 function setBackToDefault() {
