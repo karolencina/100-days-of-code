@@ -192,3 +192,15 @@ Although I finished the script of Lorem Ipsum following John Smilga's tutorial, 
 
 ### Day 60 | 26/09/22
 The time to complete the most challenging project of the set has come! Today I started working on _Grocery Helper_ which is basically a shopping list. This is a great CRUD project which will probably take a while to complete. For now, I set up the content, style and declared constants and lets that I will be using at a later point.
+
+### Day 61 | 27/09/22
+I didn't do anything JavaScript-related today.
+
+### Day 62 | 28/09/22
+I created the most important functionality of _Grocery Helper_ - adding items to the list. At the moment, the only thing a user can do is add and display an item and there are no options to remove and edit it. This is something I will work on over the next couple of days.
+
+### Day 63 | 29/09/22
+I didn't do any JS today but I wrote my first program in Python Flask and ran it on ENU Linux server!
+
+### Day 63 | 29/09/22
+Today I added a function which sets the form input and submit button to the original state (e.g. if someone adds a new item, edits it and then sumbits the edit, the button title needs to be changed).
