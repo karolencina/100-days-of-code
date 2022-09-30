@@ -76,6 +76,10 @@ function addItem(e) {
     //Append child to grocery list
     list.appendChild(groceryItem);
     displayAlert("Item added to the list", "alert-success");
+
+    // Set back to default
+    setBackToDefault();
+
     // Editing an item
   } else if (value && editFlag) {
     groceryInput.classList.remove("empty-value");
@@ -100,5 +104,13 @@ function displayAlert(text, cssClass) {
 }
 
 /* Local storage */
+
+/* Set back to default */
+function setBackToDefault() {
+  groceryInput.value = "";
+  editFlag = false;
+  editId = "";
+  submitBtn.textContent = "submit";
+}
 
 /* Setup items */
