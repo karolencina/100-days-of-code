@@ -76,6 +76,11 @@ function addItem(e) {
                 </svg>
               </button>
             </div>`;
+    const deleteBtn = groceryItem.querySelector(".delete-btn");
+    const editBtn = groceryItem.querySelector(".edit-btn");
+    deleteBtn.addEventListener("click", deleteItem);
+    editBtn.addEventListener("click", editItem);
+
     //Append child to grocery list
     list.appendChild(groceryItem);
     displayAlert("Item added to the list", "alert-success");
@@ -116,9 +121,21 @@ function clearItems() {
     items.forEach(function (item) {
       list.removeChild(item);
     });
-    container.classList.remove("show-container");
+    groceriesContainer.classList.remove("show-container");
     displayAlert("Items deleted", "alert-success");
+    setBackToDefault();
+    // localStorage.removeItem('list');
   }
+}
+
+// Delete function
+function deleteItem() {
+  console.log("item deleted");
+}
+
+// Edit function
+function editItem() {
+  console.log("item editing");
 }
 
 /* Local storage */
