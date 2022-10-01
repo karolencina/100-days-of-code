@@ -202,5 +202,8 @@ I created the most important functionality of _Grocery Helper_ - adding items to
 ### Day 63 | 29/09/22
 I didn't do any JS today but I wrote my first program in Python Flask and ran it on ENU Linux server!
 
-### Day 63 | 29/09/22
-Today I added a function which sets the form input and submit button to the original state (e.g. if someone adds a new item, edits it and then sumbits the edit, the button title needs to be changed).
+### Day 63 | 30/09/22
+Today I added a function which sets the form input and submit button to the original state (e.g. if someone adds a new item, edits it and then submits the edit, the button title needs to be changed).
+
+### Day 63 | 1/10/22
+_Grocery Helper_ is still in progress - today I learned how to access dynamically added HTML elements (we can't target an element which returns `null`). Instead of targeting the yet nonexistent element, we can opt out for event bubbling or target the element with selectors *only* when we have access to them - that is after the code that creates the element dynamically in JS.
