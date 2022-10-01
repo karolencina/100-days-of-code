@@ -13,7 +13,7 @@ const clearBtn = document.querySelector(".clear-btn");
 
 /* Edit option */
 
-let editItem;
+let editElement;
 let editFlag = false;
 let editId = "";
 
