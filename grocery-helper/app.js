@@ -192,7 +192,18 @@ function removeFromLocalStorage(id) {
   localStorage.setItem("list", JSON.stringify(items));
 }
 
-function editLocalStorage(id, value) {}
+function editLocalStorage(id, value) {
+  let items = getLocalStorage();
+  items = items.map(function (item) {
+    // If the currently iterated item matches the id of the item being edited, the the value of the item will be assigned to the new value we are changing the item to.
+    if (item.id === id) {
+      item.value = value;
+    }
+    // This will return all items one after another, including the one changed by the if statement.
+    return item;
+  });
+  localStorage.setItem("list", JSON.stringify(items));
+}
 
 function getLocalStorage() {
   return localStorage.getItem("list")
