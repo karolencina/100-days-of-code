@@ -129,8 +129,18 @@ function clearItems() {
 }
 
 // Delete function
-function deleteItem() {
-  console.log("item deleted");
+function deleteItem(e) {
+  const element = e.currentTarget.parentElement.parentElement;
+  const id = element.dataset.id;
+  // removeChild of an element of class .grocery-list which is
+  list.removeChild(element);
+  if (list.children.length === 0) {
+    groceriesContainer.classList.remove("show-container");
+  }
+  displayAlert("Item removed", "alert-danger");
+  setBackToDefault();
+  // Remove from local storage
+  // removeFromLocalStorage(id);
 }
 
 // Edit function
