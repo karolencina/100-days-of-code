@@ -129,7 +129,7 @@ function clearItems() {
     groceriesContainer.classList.remove("show-container");
     displayAlert("Items deleted", "alert-success");
     setBackToDefault();
-    // localStorage.removeItem('list');
+    localStorage.removeItem("list");
   }
 }
 
@@ -145,7 +145,7 @@ function deleteItem(e) {
   displayAlert("Item removed", "alert-danger");
   setBackToDefault();
   // Remove from local storage
-  // removeFromLocalStorage(id);
+  removeFromLocalStorage(id);
 }
 
 // Edit function
@@ -180,7 +180,17 @@ function addToLocalStorage(id, value) {
   console.log(items);
 }
 
-function removeFromLocalStorage(id) {}
+function removeFromLocalStorage(id) {
+  let items = getLocalStorage();
+  items = items.filter(function (item) {
+    // Select all items apart from the current one (the one being deleted)
+    if (item.id !== id) {
+      return item;
+    }
+  });
+  // Update the local storage to be the result of setting the items to all apart from the one being deleted - this is the same as deleting one item.
+  localStorage.setItem("list", JSON.stringify(items));
+}
 
 function editLocalStorage(id, value) {}
 
