@@ -94,7 +94,12 @@ function addItem(e) {
     // Editing an item
   } else if (value && editFlag) {
     groceryInput.classList.remove("empty-value");
-    console.log("editing");
+    // Set the title of the current element to be the value of the current input field
+    editElement.innerHTML = groceryInput.value;
+    displayAlert("Item updated", "alert-success");
+    // Edit local storage
+    editLocalStorage(editId, value);
+    setBackToDefault();
     // If the input value is empty
   } else {
     groceryInput.classList.add("empty-value");
@@ -144,8 +149,15 @@ function deleteItem(e) {
 }
 
 // Edit function
-function editItem() {
-  console.log("item editing");
+function editItem(e) {
+  const element = e.currentTarget.parentElement.parentElement;
+  /* Set edit item - select sibling because currentTarget.parentElement is .btn-container and we need to select .title (to edit it), which is on the same level (sibling) */
+  editElement = e.currentTarget.parentElement.previousElementSibling;
+  // Set form value
+  groceryInput.value = editElement.innerHTML;
+  editFlag = true;
+  editId = element.dataset.id;
+  submitBtn.textContent = "edit";
 }
 
 // Set back to default
@@ -162,5 +174,7 @@ function addToLocalStorage(id, value) {
 }
 
 function removeFromLocalStorage(id) {}
+
+function editLocalStorage(id, value) {}
 
 /* Setup items */
