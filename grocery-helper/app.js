@@ -173,9 +173,7 @@ function addToLocalStorage(id, value) {
   // ES6 shortcut - equivalent of {id: id, value: value}
   const grocery = { id, value };
   // If the item already exists ? If yes, give me the item and use JSON parse : if it doesn't, set items to empty array
-  let items = localStorage.getItem("list")
-    ? JSON.parse(localStorage.getItem("list"))
-    : [];
+  let items = getLocalStorage();
   // Add the let items to const grocery
   items.push(grocery);
   localStorage.setItem("list", JSON.stringify(items));
@@ -185,6 +183,12 @@ function addToLocalStorage(id, value) {
 function removeFromLocalStorage(id) {}
 
 function editLocalStorage(id, value) {}
+
+function getLocalStorage() {
+  return localStorage.getItem("list")
+    ? JSON.parse(localStorage.getItem("list"))
+    : [];
+}
 
 // localStorage API
 // setItem
