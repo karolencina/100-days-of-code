@@ -1,4 +1,4 @@
-/* Select items */
+/* SELECT ITEMS */
 
 const alert = document.querySelector(".alert");
 // Basically a container for alerts, title, input field and submit button
@@ -17,7 +17,7 @@ let editElement;
 let editFlag = false;
 let editId = "";
 
-/* Event listeners */
+/* EVENT LISTENERS */
 
 //Submit form
 form.addEventListener("submit", addItem);
@@ -25,7 +25,7 @@ form.addEventListener("submit", addItem);
 // Clear items
 clearBtn.addEventListener("click", clearItems);
 
-/* Functions */
+/* FUNCTIONS */
 
 function addItem(e) {
   e.preventDefault();
@@ -138,17 +138,19 @@ function editItem() {
   console.log("item editing");
 }
 
-/* Local storage */
-function addToLocalStorage(id, value) {
-  console.log("Added to local storage");
-}
-
-/* Set back to default */
+// Set back to default
 function setBackToDefault() {
   groceryInput.value = "";
   editFlag = false;
   editId = "";
   submitBtn.textContent = "submit";
 }
+
+/* LOCAL STORAGE */
+function addToLocalStorage(id, value) {
+  console.log("Added to local storage");
+}
+
+function removeFromLocalStorage(id) {}
 
 /* Setup items */
