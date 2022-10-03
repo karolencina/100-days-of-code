@@ -202,8 +202,16 @@ I created the most important functionality of _Grocery Helper_ - adding items to
 ### Day 63 | 29/09/22
 I didn't do any JS today but I wrote my first program in Python Flask and ran it on ENU Linux server!
 
-### Day 63 | 30/09/22
+### Day 64 | 30/09/22
 Today I added a function which sets the form input and submit button to the original state (e.g. if someone adds a new item, edits it and then submits the edit, the button title needs to be changed).
 
-### Day 63 | 1/10/22
+### Day 65 | 01/10/22
 _Grocery Helper_ is still in progress - today I learned how to access dynamically added HTML elements (we can't target an element which returns `null`). Instead of targeting the yet nonexistent element, we can opt out for event bubbling or target the element with selectors *only* when we have access to them - that is after the code that creates the element dynamically in JS.
+
+### Day 66 | 02/10/22
+The most complex project is now finished! Today I learned a lot about `localStorage`. While I'm still struggling to understand how everything fits together, I can see the bigger picture and understand the whole functionality as a whole. How do other people keep track of all their variables, functions, etc.? I feel like I get lost and overwhelmed with so many things to remember sometimes, and it takes me some time to go back to the initial declaration and make my way down to the piece of logic I'm trying to understand.
+
+### Day 67 | 03/10/22
+The main thing I learned about today is probably the `removeProperty()` method of the `style` object - I found this super useful after I changed the `diplay` property of an HTML element in my script, and I wasn't sure what its default value was initially (it wasn't defined in CSS and I wanted to return to the original state of the element).
+
+Today I completed the last project in John Smilga's collection. It's been great 2 month, and I really learned a lot.
