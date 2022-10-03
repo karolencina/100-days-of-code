@@ -57,8 +57,8 @@
   margin-top: 0.75rem;
 }
 
-.prevBtn,
-.nextBtn {
+.prev-btn,
+.next-btn {
   background: transparent;
   border-color: transparent;
   font-size: 1.75rem;
@@ -70,8 +70,8 @@
   transition: var(--transition-slow);
 }
 
-.prevBtn:hover,
-.nextBtn:hover {
+.prev-btn:hover,
+.next-btn:hover {
   color: var(--c-black);
 }
 
