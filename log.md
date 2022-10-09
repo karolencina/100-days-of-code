@@ -215,3 +215,25 @@ The most complex project is now finished! Today I learned a lot about `localStor
 The main thing I learned about today is probably the `removeProperty()` method of the `style` object - I found this super useful after I changed the `diplay` property of an HTML element in my script, and I wasn't sure what its default value was initially (it wasn't defined in CSS and I wanted to return to the original state of the element).
 
 Today I completed the last project in John Smilga's collection. It's been great 2 month, and I really learned a lot.
+
+### Day 68 | 04/10/22
+One of the last final edits was changing the width of the slider image as it was displaying an incorrect part of the image.
+
+### Day 69 | 05/10/22
+I created a 'Super Tiny Stuff' repository which will include all my super tiny projects (as expected). I will use this to practice Python before creating a Python Flask project.
+
+The first project I created was madlips.py. My partner tested it, and it was hilarious (in a good way - the result was: `Computer programming is so beautiful! It makes me so excited all the time because I love to float. Stay pretty and hide like you are a ball!`).
+
+I forgot how easy Python is when it comes to its syntax - it's so simple it makes it hard to believe that it's as powerful as devs say!
+
+### Day 70 | 06/10/22
+Uni stuff - learning Python Flask, HTTP, etc.
+
+### Day 71 | 07/10/22
+I was really busy with non-coding uni stuff.
+
+### Day 72 | 08/10/22
+I created a *Zapallo* repository to contain my Advanced Web Tech module Python Flask project - I'm actually really excited to start working on its functionality.
+
+### Day 73 | 09/10/22
+Today I kept on working through the Advanced Web Tech workbook and learned about HTTP Verbs (`GET` and `POST`) and that they can be accessed by importing the `request` object from flask.
