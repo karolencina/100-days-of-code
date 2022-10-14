@@ -237,3 +237,16 @@ I created a *Zapallo* repository to contain my Advanced Web Tech module Python F
 
 ### Day 73 | 09/10/22
 Today I kept on working through the Advanced Web Tech workbook and learned about HTTP Verbs (`GET` and `POST`) and that they can be accessed by importing the `request` object from flask.
+
+### Day 74 | 10/10/22
+
+### Day 75 | 11/10/22
+
+### Day 76 | 12/10/22
+I had a first meeting with WOOs stakeholders (my new job). Although I thought I'd start focusing on Swift, I decided that taking up a React Native job will really help me gain a deeper understanding of mobile development.
+
+### Day 77 | 13/10/22
+I spent most of the day studying Flask and related concepts - I learned more about HTTP requests and responses and also found out I can view the details of them in Chrome's dev tools or by using `curl -v <URL address>` (v for verbose). I also learned Jinja3 basics and created my first SQLite database (please give me suggestions for functional and modern visual db tools - as much as I love Linux, I can't deal with using it to interact with databases).
+
+### Day 78 | 14/10/22
+It's the uni coursework time again!
