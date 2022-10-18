@@ -249,4 +249,14 @@ I had a first meeting with WOOs stakeholders (my new job). Although I thought I'
 I spent most of the day studying Flask and related concepts - I learned more about HTTP requests and responses and also found out I can view the details of them in Chrome's dev tools or by using `curl -v <URL address>` (v for verbose). I also learned Jinja3 basics and created my first SQLite database (please give me suggestions for functional and modern visual db tools - as much as I love Linux, I can't deal with using it to interact with databases).
 
 ### Day 78 | 14/10/22
-It's the uni coursework time again!
+
+### Day 79 | 15/10/22
+
+### Day 78 | 16/10/22
+I created a basic *Servigs Changer*. I was not able to figure out the formula to calculate ingredients quantity based on the servings number input and therefore I spent some time looking for solutions on StackOverflow. Although I managed to find a nearly complete solution (apart from a few details which I needed to change), the code was written in jQuery, not Vanilla JS and therefore I couldn't understand it really well.
+
+### Day 78 | 17/10/22
+I rewrote the jQuery code to Vanilla JS, as I'm not very confident with it (I even struggled translating it and had to ask for suggestions on Reddit).
+
+### Day 78 | 18/10/22
+(Finished a coursework).
