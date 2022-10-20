@@ -263,3 +263,6 @@ I rewrote the jQuery code to Vanilla JS, as I'm not very confident with it (I ev
 
 ### Day 78 | 19/10/22
 I've recently agreed to develop a React Native app for a Prague-based company. Today I've been trying to open a project in Android Studio emulator, but I'm struggling a bit as I don't have any experience with android dev and  I'm having dependency issues with components I don't really understand.
+
+### Day 78 | 19/10/22
+With dependency-luck (I feel like this should be an actual phrase!), I started completing Dave Ceddia's Pure React book exercises to brush up on my React skills. I started with the good old *Hello World*.
