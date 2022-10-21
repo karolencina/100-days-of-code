@@ -266,3 +266,6 @@ I've recently agreed to develop a React Native app for a Prague-based company. T
 
 ### Day 78 | 19/10/22
 With dependency-luck (I feel like this should be an actual phrase!), I started completing Dave Ceddia's Pure React book exercises to brush up on my React skills. I started with the good old *Hello World*.
+
+### Day 80 | 20/10/22
+I created a guess number game, computer version. Although I'm following Kylie Ying's tutorial, I did almost all of it on my own. Easy peasy lemon squeezy.
