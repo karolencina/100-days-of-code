@@ -252,20 +252,20 @@ I spent most of the day studying Flask and related concepts - I learned more abo
 
 ### Day 79 | 15/10/22
 
-### Day 78 | 16/10/22
+### Day 80 | 16/10/22
 I created a basic *Servigs Changer*. I was not able to figure out the formula to calculate ingredients quantity based on the servings number input and therefore I spent some time looking for solutions on StackOverflow. Although I managed to find a nearly complete solution (apart from a few details which I needed to change), the code was written in jQuery, not Vanilla JS and therefore I couldn't understand it really well.
 
-### Day 78 | 17/10/22
+### Day 81 | 17/10/22
 I rewrote the jQuery code to Vanilla JS, as I'm not very confident with it (I even struggled translating it and had to ask for suggestions on Reddit).
 
-### Day 78 | 18/10/22
+### Day 82 | 18/10/22
 (Finished a coursework).
 
-### Day 78 | 19/10/22
+### Day 83 | 19/10/22
 I've recently agreed to develop a React Native app for a Prague-based company. Today I've been trying to open a project in Android Studio emulator, but I'm struggling a bit as I don't have any experience with android dev and  I'm having dependency issues with components I don't really understand.
 
-### Day 78 | 19/10/22
+### Day 84 | 20/10/22
 With dependency-luck (I feel like this should be an actual phrase!), I started completing Dave Ceddia's Pure React book exercises to brush up on my React skills. I started with the good old *Hello World*.
 
-### Day 80 | 20/10/22
+### Day 85 | 21/10/22
 I created a guess number game, computer version. Although I'm following Kylie Ying's tutorial, I did almost all of it on my own. Easy peasy lemon squeezy.
